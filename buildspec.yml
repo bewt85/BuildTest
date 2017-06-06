@@ -3,7 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - ./script.sh
+      - /bin/bash script.sh
       
 artifacts:
   files:
